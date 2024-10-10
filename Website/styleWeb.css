@@ -1,0 +1,77 @@
+body {
+  font-family: Geneva, serif;
+  font-weight: 666;
+  text-align: center;
+  background-image: url("https://www.formbyfestival.co.uk/wp-content/uploads/2018/08/plain-blue-sky.jpg");
+  background-color: lightsteelblue;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+}
+
+header {
+  grid-column: auto;
+  text-align: center;
+  height: 5px;
+}
+
+.login-menu {
+  grid-column: auto;
+  text-align: left;
+  height: 5px;
+  padding: 20px 10px;
+}
+
+button {
+  position: center;
+  padding: 10px;
+  background-color: rgb(174 220 241 / 96%);
+  color: #050505;
+  border: 0;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0929ce;
+  color: white;
+}
+
+#output {
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.img {
+  width: 30px;
+  height: 20px;
+}
+
+ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  text-align: center;
+  padding: 5px;
+  border: 20px;
+  margin: 5px;
+}

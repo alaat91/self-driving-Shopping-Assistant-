@@ -1,0 +1,107 @@
+.button-fsb {
+  border: none;
+  color: rgb(255 255 255);
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 680px;
+}
+
+.button-lsr {
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 550px;
+}
+
+.button-below {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 480px;
+}
+
+.button1 {
+  background-color: rgb(174 220 241 / 96%);
+  color: black;
+  border: 2px solid #0929ce;
+}
+
+.button1:hover {
+  background-color: #0929ce;
+  color: white;
+}
+
+.button2 {
+  background-color: rgb(174 220 241 / 96%);
+  color: black;
+  border: 2px solid #0929ce;
+}
+
+.button2:hover {
+  background-color: #0929ce;
+  color: #fff;
+}
+
+.button3 {
+  background-color: rgb(174 220 241 / 96%);
+  color: black;
+  border: 2px solid rgb(9 41 206);
+}
+
+.button3:hover {
+  background-color: #0929ce;
+  color: white;
+}
+
+.button4 {
+  background-color: rgb(174 220 241 / 96%);
+  color: black;
+  border: 2px solid #c01d1d;
+}
+
+.button4:hover {
+  background-color: #d20b28;
+  color: white;
+}
+
+.header {
+  background-color: #06acf8;
+  padding: 10px;
+  text-align: left;
+}
+
+body {
+  background-image: url("https://www.formbyfestival.co.uk/wp-content/uploads/2018/08/plain-blue-sky.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: cornflowerblue;
+  background-size: cover;
+}
+
+form {
+  text-align: center;
+}
+

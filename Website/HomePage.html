@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="styleWeb.css">
+    <title>Shopping Assistant</title>
+</head>
+
+<body>
+     <script type = "text/javascript" src="script.js"></script>
+     <h2 class = "headline">Shopping Assistant</h2>
+
+     <a href="login.html">
+         <button type="button" >Admin</button>
+     </a>
+
+<p>Press the button to ask for a item</p>
+
+<p>
+    <button type="button" onclick="runSpeechRecognition()">Press to start</button>
+    <span id="action"></span>
+</p>
+
+<div
+        id="output" class="hide">
+</div>
+     <label for="searchbar"></label><input id="searchbar" oninput="search_item()" type="text" name="search" placeholder="Search" autocomplete="false">
+
+<ul id="result"></ul>
+
+<div>
+    <img src=" https://fitsmallbusiness.com/wp-content/uploads/2021/07/Screenshot_floor_plan_sample.jpg" rel="Blueprint" alt="">
+</div>
+
+</body>
+</html>
+
+
